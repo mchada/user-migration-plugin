@@ -1,0 +1,11 @@
+hash: 20e9b7f914487d2e659bd55e30e81543b6ec3012ee840952017e11cfc36121ac
+updated: 2016-08-18T10:46:05.443299367-04:00
+imports:
+- name: github.com/cloudfoundry/cli
+  version: d82560db4034389d58097854ea59a1e27c778602
+  subpackages:
+  - plugin
+  - plugin/models
+- name: github.com/kelseyhightower/envconfig
+  version: 49e88841e458491c935563aac0eb7e871c3375f4
+devImports: []
