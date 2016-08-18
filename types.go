@@ -62,16 +62,13 @@ type Org struct {
 }
 
 type OrgRole struct {
-	Org      *OrgResource
+	Org      *OrgResource `json:"-"`
+	OrgName  string
 	RoleName string
 }
 
 func (o OrgRole) String() string {
-	return fmt.Sprintf("%s %s", o.getOrgName(), o.RoleName)
-}
-
-func (o *OrgRole) getOrgName() string {
-	return o.Org.Entity.Name
+	return fmt.Sprintf("%s %s", o.OrgName, o.RoleName)
 }
 
 type Space struct {
@@ -79,21 +76,15 @@ type Space struct {
 }
 
 type SpaceRole struct {
-	Org      *OrgResource
-	Space    *SpaceResource
-	RoleName string
-}
-
-func (s *SpaceRole) getOrgName() string {
-	return s.Org.Entity.Name
-}
-
-func (s *SpaceRole) getSpaceName() string {
-	return s.Space.Entity.Name
+	Org       *OrgResource   `json:"-"`
+	Space     *SpaceResource `json:"-"`
+	OrgName   string
+	SpaceName string
+	RoleName  string
 }
 
 func (s SpaceRole) String() string {
-	return fmt.Sprintf("%s %s %s", s.getOrgName(), s.getSpaceName(), s.RoleName)
+	return fmt.Sprintf("%s %s %s", s.OrgName, s.SpaceName, s.RoleName)
 }
 
 func (u *UserSummary) getOrgRoles() []*OrgRole {
@@ -108,7 +99,10 @@ func (u *UserSummary) getOrgRoles() []*OrgRole {
 func getOrgRoles(orgs []*OrgResource, orgRoleName string) []*OrgRole {
 	orgRoles := make([]*OrgRole, 0)
 	for _, orgResource := range orgs {
-		orgRoles = append(orgRoles, &OrgRole{orgResource, orgRoleName})
+		orgRoles = append(orgRoles, &OrgRole{Org: orgResource,
+			RoleName: orgRoleName,
+			OrgName:  orgResource.Entity.Name,
+		})
 	}
 
 	return orgRoles
@@ -127,7 +121,13 @@ func getSpaceRoles(u *UserSummary, spaces []*SpaceResource, spaceRoleName string
 	spaceRoles := make([]*SpaceRole, 0)
 
 	for _, spaceResource := range spaces {
-		spaceRoles = append(spaceRoles, &SpaceRole{u.getOrg(spaceResource), spaceResource, spaceRoleName})
+		org := u.getOrg(spaceResource)
+		spaceRoles = append(spaceRoles, &SpaceRole{Org: u.getOrg(spaceResource),
+			Space:     spaceResource,
+			RoleName:  spaceRoleName,
+			OrgName:   org.Entity.Name,
+			SpaceName: spaceResource.Entity.Name,
+		})
 	}
 
 	return spaceRoles
