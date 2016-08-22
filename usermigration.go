@@ -111,7 +111,7 @@ func (cmd *UserMigrationCmd) printUserReport(cli plugin.CliConnection) {
 			continue
 		}
 
-		userMigration := &userMigration{}
+		userMigration := new(userMigration)
 		userMigration.Username = userResource.Entity.Username
 
 		uaaUser := findUaaUser(userResource, &uaaUsers)
