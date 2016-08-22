@@ -7,9 +7,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	"net/url"
 	"reflect"
-	"strings"
 )
 
 type Client interface {
@@ -29,7 +27,7 @@ type uaaClient struct {
 }
 
 type ConnectionInfo struct {
-	ServerURL    string `required:"true"`
+	ServerURL    string
 	ClientID     string `required:"true"`
 	ClientSecret string `required:"true"`
 }
@@ -90,17 +88,13 @@ func (c *uaaClient) executeAndUnmarshall(req *http.Request, target interface{}) 
 func (c *uaaClient) getAccessToken() (AccessToken, error) {
 	var at AccessToken
 
-	params := url.Values{}
-	params.Set("client_id", c.connInfo.ClientID)
-	params.Set("client_secret", c.connInfo.ClientSecret)
-	params.Set("grant_type", "client_credentials")
-	params.Set("response_type", "token")
-
-	req, err := c.newHTTPRequest("POST", "/oauth/token", strings.NewReader(params.Encode()))
+	req, err := c.newHTTPRequest("POST", "/oauth/token?grant_type=client_credentials", nil)
 	if err != nil {
 		return at, err
 	}
-	req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
+
+	req.Header.Add("Accept", "application/json")
+	req.SetBasicAuth(c.connInfo.ClientID, c.connInfo.ClientSecret)
 
 	err = c.executeAndUnmarshall(req, &at)
 	if err != nil {

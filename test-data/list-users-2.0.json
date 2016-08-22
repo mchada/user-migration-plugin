@@ -1,0 +1,5705 @@
+{
+  "resources": [
+    {
+      "id": "8c0743cd-3866-4c3f-b667-95e5bfa0b525",
+      "meta": {
+        "version": 12,
+        "created": "2015-10-13T03:25:51.608Z",
+        "lastModified": "2016-07-22T21:54:21.267Z"
+      },
+      "userName": "admin",
+      "name": {
+      },
+      "emails": [
+        {
+          "value": "admin",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "19f1103d-0f26-4344-9126-927a8bfd9e6b",
+          "display": "scim.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "6b7e1645-029f-4116-a254-d4194b099cf8",
+          "display": "console.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "ca1e63bd-a756-4937-a34a-a35bbeb54ad6",
+          "display": "emails.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "42d89b85-7600-4364-b286-d3c27b7156c1",
+          "display": "zones.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "71a19bd3-1dd4-4e46-bd6b-337edf948ec5",
+          "display": "zones.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "fc14faaa-6219-4c33-9296-ab6ac27dabdc",
+          "display": "notifications.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "7507c644-1e6b-4976-b2e3-5d8f6f459dee",
+          "display": "cloud_controller.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "af16af0d-6b37-40ad-a76e-b5038a11f0ec",
+          "display": "console.support",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "96ac2ab5-4eb0-438f-bfde-4ff94087d1ac",
+          "display": "notifications.manage",
+          "type": "DIRECT"
+        },
+        {
+          "value": "fddbeaf8-984e-4fa8-bfad-b46e6644726a",
+          "display": "doppler.firehose",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "eabd940c-f621-4dea-a41c-7900bf6f098e",
+          "display": "notification_templates.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "97802faf-6388-4b0c-9f68-23914b9d00d9",
+          "display": "dashboard.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "b33ccde5-0f7a-4b24-856c-85c3553cc351",
+          "display": "scim.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "08ec80fc-a9e7-4008-bbff-38359cc4fb71",
+          "display": "notification_templates.write",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-10-13T03:25:51.608Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "96c1d7f1-0f3e-4946-a041-003cea7650eb",
+      "meta": {
+        "version": 12,
+        "created": "2015-10-13T03:25:52.230Z",
+        "lastModified": "2016-07-22T21:54:21.712Z"
+      },
+      "userName": "push_apps_manager",
+      "name": {
+      },
+      "emails": [
+        {
+          "value": "push_apps_manager",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "7507c644-1e6b-4976-b2e3-5d8f6f459dee",
+          "display": "cloud_controller.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-10-13T03:25:52.230Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "d2772873-4b75-4c7d-aafb-e1ef968ec31b",
+      "meta": {
+        "version": 12,
+        "created": "2015-10-13T03:25:52.442Z",
+        "lastModified": "2016-07-22T21:54:21.990Z"
+      },
+      "userName": "smoke_tests",
+      "name": {
+      },
+      "emails": [
+        {
+          "value": "smoke_tests",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "7507c644-1e6b-4976-b2e3-5d8f6f459dee",
+          "display": "cloud_controller.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-10-13T03:25:52.442Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "c22a047d-6b81-4221-b904-dcbca3c1b4c3",
+      "meta": {
+        "version": 12,
+        "created": "2015-10-13T03:25:52.600Z",
+        "lastModified": "2016-07-22T21:54:22.262Z"
+      },
+      "userName": "system_services",
+      "name": {
+      },
+      "emails": [
+        {
+          "value": "system_services",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "7507c644-1e6b-4976-b2e3-5d8f6f459dee",
+          "display": "cloud_controller.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-10-13T03:25:52.600Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "f0f22f9a-d498-4c5e-91ba-483b8de2b709",
+      "meta": {
+        "version": 12,
+        "created": "2015-10-13T03:25:52.807Z",
+        "lastModified": "2016-07-22T21:54:22.570Z"
+      },
+      "userName": "system_verification",
+      "name": {
+      },
+      "emails": [
+        {
+          "value": "system_verification",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "7507c644-1e6b-4976-b2e3-5d8f6f459dee",
+          "display": "cloud_controller.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "af16af0d-6b37-40ad-a76e-b5038a11f0ec",
+          "display": "console.support",
+          "type": "DIRECT"
+        },
+        {
+          "value": "19f1103d-0f26-4344-9126-927a8bfd9e6b",
+          "display": "scim.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "6b7e1645-029f-4116-a254-d4194b099cf8",
+          "display": "console.admin",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "97802faf-6388-4b0c-9f68-23914b9d00d9",
+          "display": "dashboard.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "b33ccde5-0f7a-4b24-856c-85c3553cc351",
+          "display": "scim.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-10-13T03:25:52.807Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "2297fba2-3087-4554-84ab-89c69c27e774",
+      "externalId": "cn=I275943,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 25,
+        "created": "2015-11-18T02:33:14.187Z",
+        "lastModified": "2016-03-25T20:26:32.099Z"
+      },
+      "userName": "i275943",
+      "name": {
+        "familyName": "Patkar",
+        "givenName": "Manas"
+      },
+      "emails": [
+        {
+          "value": "Manas_Patkar@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "2297fba2-3087-4554-84ab-89c69c27e774",
+          "clientId": "pulse-client-gf-plan-1-0",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-05T21:20:02.048Z",
+          "lastUpdatedAt": "2016-08-05T21:20:02.048Z"
+        },
+        {
+          "userId": "2297fba2-3087-4554-84ab-89c69c27e774",
+          "clientId": "pulse-client-gf-plan-1-0",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-05T21:20:02.048Z",
+          "lastUpdatedAt": "2016-08-05T21:20:02.051Z"
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-912-2124"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T02:33:14.187Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "1b4f41ca-bd39-4b9a-95c9-6958ce3527b0",
+      "externalId": "cn=A265653,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 16,
+        "created": "2015-11-18T03:17:32.891Z",
+        "lastModified": "2016-03-25T20:22:56.224Z"
+      },
+      "userName": "a265653",
+      "name": {
+        "familyName": "Saifullah",
+        "givenName": "Mohammed"
+      },
+      "emails": [
+        {
+          "value": "mohammed_saifullah@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-8464"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T03:17:32.891Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "6dfd9d7f-2bf8-4ff2-a832-0f1454c20492",
+      "externalId": "cn=I326833,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1818,
+        "created": "2015-11-18T14:05:03.361Z",
+        "lastModified": "2016-02-29T23:03:55.745Z"
+      },
+      "userName": "i326833",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i326833"
+      },
+      "emails": [
+        {
+          "value": "Rowan_Jacobs@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T14:05:03.361Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "e1e12708-77a3-424d-875d-bbc32590b57a",
+      "externalId": "cn=I262031,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 4,
+        "created": "2015-11-18T14:14:09.774Z",
+        "lastModified": "2016-04-11T14:30:49.316Z"
+      },
+      "userName": "i262031",
+      "name": {
+        "familyName": "Pradhan",
+        "givenName": "Anupama"
+      },
+      "emails": [
+        {
+          "value": "anupama_pradhan@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "e1e12708-77a3-424d-875d-bbc32590b57a",
+          "clientId": "pulse-client-gf-plan-1-0",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-18T13:30:25.145Z",
+          "lastUpdatedAt": "2016-08-18T13:30:25.145Z"
+        },
+        {
+          "userId": "e1e12708-77a3-424d-875d-bbc32590b57a",
+          "clientId": "pulse-client-gf-plan-1-0",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-18T13:30:25.145Z",
+          "lastUpdatedAt": "2016-08-18T13:30:25.148Z"
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-4812"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T14:14:09.774Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "879205cd-0e20-4424-923f-a8a9506e8d1a",
+      "externalId": "cn=I306572,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 917,
+        "created": "2015-11-18T14:21:42.238Z",
+        "lastModified": "2016-03-23T14:42:39.361Z"
+      },
+      "userName": "I306572",
+      "name": {
+        "familyName": "Casey",
+        "givenName": "Adam"
+      },
+      "emails": [
+        {
+          "value": "Adam_Casey@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-5107"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T14:21:42.238Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95",
+      "externalId": "cn=I259072,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 37,
+        "created": "2015-11-18T15:15:32.534Z",
+        "lastModified": "2016-08-08T20:48:22.137Z"
+      },
+      "userName": "i259072",
+      "name": {
+        "familyName": "Wakeling",
+        "givenName": "Wen-Hui"
+      },
+      "emails": [
+        {
+          "value": "Wen-Hui_Wakeling@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-4387"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T15:15:32.534Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "2241dc38-bb8e-48be-ba52-bb55039b1553",
+      "externalId": "cn=I316157,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 3,
+        "created": "2015-11-18T15:57:30.948Z",
+        "lastModified": "2016-08-16T20:27:01.578Z"
+      },
+      "userName": "I316157",
+      "name": {
+        "familyName": "Sriramoju",
+        "givenName": "Raj"
+      },
+      "emails": [
+        {
+          "value": "Rajender_Sriramoju@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "972-766-4568"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T15:57:30.948Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "feb3832b-3fec-413c-a066-6c124e99b0e7",
+      "externalId": "cn=I348377,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 64,
+        "created": "2015-11-18T17:59:51.732Z",
+        "lastModified": "2016-03-23T21:52:07.144Z"
+      },
+      "userName": "i348377",
+      "name": {
+        "familyName": "Gaebler",
+        "givenName": "Megan"
+      },
+      "emails": [
+        {
+          "value": "i348377@user.from.ldap.cf",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-18T17:59:51.732Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "ed994c5b-6320-40a9-a371-c634d8252f48",
+      "externalId": "cn=I269522,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 15,
+        "created": "2015-11-19T16:38:27.583Z",
+        "lastModified": "2016-04-26T19:57:26.187Z"
+      },
+      "userName": "i269522",
+      "name": {
+        "familyName": "Hoover",
+        "givenName": "Hamilton"
+      },
+      "emails": [
+        {
+          "value": "Hamilton_Hoover@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "847-775-5345"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-11-19T16:38:27.583Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "d963acb7-bea1-4f51-a5f3-a7efdf6853c4",
+      "externalId": "cn=I339255,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2015-12-04T20:57:09.175Z",
+        "lastModified": "2015-12-04T20:57:09.186Z"
+      },
+      "userName": "i339255",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i339255"
+      },
+      "emails": [
+        {
+          "value": "Everett_Lewis@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2015-12-04T20:57:09.175Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "092e4854-49ef-44cd-a9bd-ae065ac7b90e",
+      "externalId": "cn=I260746,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-01-05T15:11:07.771Z",
+        "lastModified": "2016-01-05T15:11:07.782Z"
+      },
+      "userName": "i260746",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i260746"
+      },
+      "emails": [
+        {
+          "value": "najib_murad@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-05T15:11:07.771Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "e4c27551-94a5-4374-b186-f5c1b33e11d5",
+      "externalId": "cn=I263305,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 5,
+        "created": "2016-01-14T17:39:52.852Z",
+        "lastModified": "2016-03-10T16:07:48.385Z"
+      },
+      "userName": "i263305",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i263305"
+      },
+      "emails": [
+        {
+          "value": "balakrishnanm@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-14T17:39:52.852Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "405d2399-558c-4662-b1cf-40eec3b5ba8c",
+      "externalId": "cn=I275275,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 2,
+        "created": "2016-01-15T16:33:49.397Z",
+        "lastModified": "2016-01-15T16:50:52.817Z"
+      },
+      "userName": "i275275",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i275275"
+      },
+      "emails": [
+        {
+          "value": "Murugan_Chinnakonda@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-15T16:33:49.397Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "7d6ed5f9-bca2-43cf-8136-0330ea29c8fd",
+      "externalId": "cn=I274111,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 3,
+        "created": "2016-01-15T16:35:31.456Z",
+        "lastModified": "2016-02-11T14:37:07.906Z"
+      },
+      "userName": "i274111",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i274111"
+      },
+      "emails": [
+        {
+          "value": "Ashutosh_Kharkwal@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-15T16:35:31.456Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "8d9f5d17-4de7-4027-9582-739a63eb8773",
+      "externalId": "cn=I264811,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-01-15T16:51:49.423Z",
+        "lastModified": "2016-01-15T16:51:49.433Z"
+      },
+      "userName": "i264811",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i264811"
+      },
+      "emails": [
+        {
+          "value": "arpit_parikh@mdm.hcsctest.net",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-15T16:51:49.423Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "85559ee3-f473-4a28-be80-517e66551a97",
+      "externalId": "cn=I306295,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 2,
+        "created": "2016-01-15T16:58:52.730Z",
+        "lastModified": "2016-01-18T21:58:45.553Z"
+      },
+      "userName": "i306295",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i306295"
+      },
+      "emails": [
+        {
+          "value": "Damon_Payne@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-15T16:58:52.730Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "3eda733f-361f-4f44-978f-86558e5c697d",
+      "externalId": "cn=I330785,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 3,
+        "created": "2016-01-20T21:39:04.695Z",
+        "lastModified": "2016-01-20T22:17:29.962Z"
+      },
+      "userName": "i330785",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i330785"
+      },
+      "emails": [
+        {
+          "value": "Ravi_Singhal@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-20T21:39:04.695Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "faf06e46-5fa7-4e75-bc10-1e17c328c44f",
+      "externalId": "cn=I320988,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 20,
+        "created": "2016-01-21T18:35:21.284Z",
+        "lastModified": "2016-03-23T21:53:58.591Z"
+      },
+      "userName": "i320988",
+      "name": {
+        "familyName": "Tooke",
+        "givenName": "David"
+      },
+      "emails": [
+        {
+          "value": "David_Tooke@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-7140"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-21T18:35:21.284Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "bc89ea58-f1e1-4c73-8739-338503aa1c82",
+      "externalId": "cn=I338197,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 11,
+        "created": "2016-01-21T19:29:48.749Z",
+        "lastModified": "2016-02-09T15:39:59.819Z"
+      },
+      "userName": "i338197",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i338197"
+      },
+      "emails": [
+        {
+          "value": "Mark_Staszak@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-21T19:29:48.749Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "b5d71ecc-30b4-48ea-8ffc-4df4512dad1c",
+      "externalId": "cn=I275905,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-01-25T21:31:28.490Z",
+        "lastModified": "2016-01-25T21:31:28.499Z"
+      },
+      "userName": "i275905",
+      "name": {
+        "familyName": "user.from.ldap.cf",
+        "givenName": "i275905"
+      },
+      "emails": [
+        {
+          "value": "Suresh_Dadwani@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-25T21:31:28.490Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "9ac37783-3912-461d-a995-1f924fcd8a53",
+      "externalId": "cn=I320541,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 47,
+        "created": "2016-01-28T22:01:23.618Z",
+        "lastModified": "2016-03-30T13:31:41.477Z"
+      },
+      "userName": "i320541",
+      "name": {
+        "familyName": "Danner",
+        "givenName": "Nayshawn"
+      },
+      "emails": [
+        {
+          "value": "Nayshawn_Danner@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-8373"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-01-28T22:01:23.618Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "19f59c67-1ed2-4128-a0a8-c0b4423ec3dd",
+      "externalId": "cn=I032789,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 28,
+        "created": "2016-02-09T19:28:34.892Z",
+        "lastModified": "2016-03-30T21:36:12.311Z"
+      },
+      "userName": "i032789",
+      "name": {
+        "familyName": "Economopoulos",
+        "givenName": "Chris"
+      },
+      "emails": [
+        {
+          "value": "economopoulos@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-2831"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-02-09T19:28:34.892Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "88406c2f-0cdb-4c91-9b85-b766bd7a133d",
+      "externalId": "cn=I266496,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 4,
+        "created": "2016-02-23T19:19:20.646Z",
+        "lastModified": "2016-04-19T03:21:00.365Z"
+      },
+      "userName": "i266496",
+      "name": {
+        "familyName": "Addanki",
+        "givenName": "Srini"
+      },
+      "emails": [
+        {
+          "value": "ADDANKIS@BCBSIL.COM",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-8617"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-02-23T19:19:20.646Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "c19b1157-7ae9-4d08-8860-ed8d2f2edb6b",
+      "externalId": "cn=I259191,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 10,
+        "created": "2016-02-23T19:33:27.257Z",
+        "lastModified": "2016-04-01T16:18:10.327Z"
+      },
+      "userName": "i259191",
+      "name": {
+        "familyName": "Veselinovic",
+        "givenName": "Jelena"
+      },
+      "emails": [
+        {
+          "value": "jelena_veselinovic@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-3118"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-02-23T19:33:27.257Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "61681fb3-a5c2-4f11-9c00-04d9cdaf22c2",
+      "externalId": "cn=U306991,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 7,
+        "created": "2016-02-24T21:23:25.918Z",
+        "lastModified": "2016-05-05T18:48:48.904Z"
+      },
+      "userName": "u306991",
+      "name": {
+        "familyName": "Hocking",
+        "givenName": "Katie"
+      },
+      "emails": [
+        {
+          "value": "Katie_Hocking@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-7601"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-02-24T21:23:25.918Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "68eb004d-7d0c-4c43-9583-a21f088aad5a",
+      "externalId": "cn=I257285,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-03-23T19:38:33.836Z",
+        "lastModified": "2016-03-23T19:38:33.836Z"
+      },
+      "userName": "i257285",
+      "name": {
+        "familyName": "Tran",
+        "givenName": "Hanh"
+      },
+      "emails": [
+        {
+          "value": "hanh_tran@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-3505"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-03-23T19:38:33.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "7726522c-59c0-4cdf-b86d-61c7868246bf",
+      "externalId": "cn=I310533,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-04-05T20:03:01.074Z",
+        "lastModified": "2016-04-05T20:03:01.074Z"
+      },
+      "userName": "i310533",
+      "name": {
+        "familyName": "Warren",
+        "givenName": "Paul"
+      },
+      "emails": [
+        {
+          "value": "Paul_Warren@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-3814"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-04-05T20:03:01.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "affec18a-87cb-4fa3-9f22-5f69b1ad2983",
+      "externalId": "cn=I339023,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-04-11T14:20:07.678Z",
+        "lastModified": "2016-04-11T14:20:07.678Z"
+      },
+      "userName": "I339023",
+      "name": {
+        "familyName": "Andonova",
+        "givenName": "Christina"
+      },
+      "emails": [
+        {
+          "value": "Christina_Y_Andonova@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "affec18a-87cb-4fa3-9f22-5f69b1ad2983",
+          "clientId": "p-mysql",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-08-28T14:53:30.231Z",
+          "lastUpdatedAt": "2016-07-28T14:53:30.266Z"
+        },
+        {
+          "userId": "affec18a-87cb-4fa3-9f22-5f69b1ad2983",
+          "clientId": "p-mysql",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-08-28T14:53:30.231Z",
+          "lastUpdatedAt": "2016-07-28T14:53:30.231Z"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-04-11T14:20:07.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "18fb64a7-9a9e-4f39-b9e2-36717edc6e7b",
+      "externalId": "cn=I311600,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-04-11T14:21:45.565Z",
+        "lastModified": "2016-04-11T14:21:45.565Z"
+      },
+      "userName": "i311600",
+      "name": {
+        "familyName": "Riddle",
+        "givenName": "Heather"
+      },
+      "emails": [
+        {
+          "value": "Heather_Riddle@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-8924"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-04-11T14:21:45.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "2f2c5ac3-7456-4bd4-b930-70b5e173844d",
+      "externalId": "cn=I335964,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-04-11T14:25:17.216Z",
+        "lastModified": "2016-04-11T14:25:17.216Z"
+      },
+      "userName": "i335964",
+      "name": {
+        "familyName": "Pelafas",
+        "givenName": "Paul"
+      },
+      "emails": [
+        {
+          "value": "Paul_Pelafas@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-5202"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-04-11T14:25:17.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "b2eab455-960d-4595-bd73-0ed79d78bbca",
+      "externalId": "cn=CSE_DEVOPS,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-04-22T14:17:29.149Z",
+        "lastModified": "2016-04-22T14:17:29.149Z"
+      },
+      "userName": "cse_devops",
+      "name": {
+        "familyName": "cse_devops",
+        "givenName": "cse_devops"
+      },
+      "emails": [
+        {
+          "value": "NONE@BCBSIL.COM",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "555-555-5555"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-04-22T14:17:29.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "9d2aa1a7-293b-4297-9961-d8443d89c126",
+      "externalId": "cn=DEP_DEVOPS,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-05-04T16:18:30.029Z",
+        "lastModified": "2016-05-04T16:18:30.029Z"
+      },
+      "userName": "dep_devops",
+      "name": {
+        "familyName": "dep_devops",
+        "givenName": "dep_devops"
+      },
+      "emails": [
+        {
+          "value": "NONE@BCBSIL.COM",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "9d2aa1a7-293b-4297-9961-d8443d89c126",
+          "clientId": "p-mysql",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-17T14:04:20.012Z",
+          "lastUpdatedAt": "2016-08-17T14:04:20.015Z"
+        },
+        {
+          "userId": "9d2aa1a7-293b-4297-9961-d8443d89c126",
+          "clientId": "p-mysql",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-17T14:04:20.012Z",
+          "lastUpdatedAt": "2016-08-17T14:04:20.012Z"
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "value": "555-555-5555"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-05-04T16:18:30.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "685c8231-0870-4dbe-a6cf-daf8d9b072ed",
+      "externalId": "cn=I350289,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-06-22T15:17:06.889Z",
+        "lastModified": "2016-06-28T14:52:57.177Z"
+      },
+      "userName": "i350289",
+      "name": {
+        "familyName": "Thekkekalathil mukundan",
+        "givenName": "Vandana"
+      },
+      "emails": [
+        {
+          "value": "Vandana_Thekkekalathil_Mukundan@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-6197"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-22T15:17:06.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "98841534-c71e-468a-9879-db6665c5dfa9",
+      "externalId": "cn=I355611,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-06-22T15:18:39.774Z",
+        "lastModified": "2016-06-28T16:36:07.294Z"
+      },
+      "userName": "i355611",
+      "name": {
+        "familyName": "Gajula",
+        "givenName": "Amarnath"
+      },
+      "emails": [
+        {
+          "value": "Amarnath_Gajula@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-8709"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-22T15:18:39.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "65e72c2c-2aeb-4dcf-9461-6a00d7d9191b",
+      "externalId": "cn=I331846,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-06-22T15:23:48.471Z",
+        "lastModified": "2016-06-22T15:23:48.471Z"
+      },
+      "userName": "I331846",
+      "name": {
+        "familyName": "Jayanth",
+        "givenName": "Vikas"
+      },
+      "emails": [
+        {
+          "value": "Vikas_Jayanth@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-22T15:23:48.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "ac5877a4-5802-4077-91c5-a3895718fe94",
+      "externalId": "cn=I339004,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-06-23T01:42:45.355Z",
+        "lastModified": "2016-06-23T01:42:45.355Z"
+      },
+      "userName": "i339004",
+      "name": {
+        "familyName": "Deguzman",
+        "givenName": "Zach"
+      },
+      "emails": [
+        {
+          "value": "Zach_M_Deguzman@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "ac5877a4-5802-4077-91c5-a3895718fe94",
+          "clientId": "p-mysql",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-17T16:55:39.461Z",
+          "lastUpdatedAt": "2016-08-17T16:55:39.464Z"
+        },
+        {
+          "userId": "ac5877a4-5802-4077-91c5-a3895718fe94",
+          "clientId": "p-mysql",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-17T16:55:39.461Z",
+          "lastUpdatedAt": "2016-08-17T16:55:39.462Z"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-23T01:42:45.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "1bc63de9-3e16-44ec-bcc6-d570e8b80db9",
+      "externalId": "cn=I320559,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-06-23T13:39:23.982Z",
+        "lastModified": "2016-06-23T13:39:23.982Z"
+      },
+      "userName": "i320559",
+      "name": {
+        "familyName": "Appiah-kubi",
+        "givenName": "Desmond"
+      },
+      "emails": [
+        {
+          "value": "Desmond_Appiah-kubi@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-4341"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-23T13:39:23.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "5c156091-0b0b-4b49-8f50-96897b5d380b",
+      "externalId": "cn=I320188,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-06-24T18:52:05.560Z",
+        "lastModified": "2016-06-24T18:52:05.560Z"
+      },
+      "userName": "i320188",
+      "name": {
+        "familyName": "Clough",
+        "givenName": "Matthew"
+      },
+      "emails": [
+        {
+          "value": "Matthew_Clough@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+        {
+          "userId": "5c156091-0b0b-4b49-8f50-96897b5d380b",
+          "clientId": "p-mysql",
+          "scope": "cloud_controller_service_permissions.read",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-03T19:17:11.924Z",
+          "lastUpdatedAt": "2016-08-03T19:17:11.928Z"
+        },
+        {
+          "userId": "5c156091-0b0b-4b49-8f50-96897b5d380b",
+          "clientId": "p-mysql",
+          "scope": "openid",
+          "status": "APPROVED",
+          "expiresAt": "2016-09-03T19:17:11.924Z",
+          "lastUpdatedAt": "2016-08-03T19:17:11.924Z"
+        }
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-7733"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-24T18:52:05.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d",
+      "externalId": "cn=I355486,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 1,
+        "created": "2016-06-24T20:14:47.096Z",
+        "lastModified": "2016-06-29T20:21:36.424Z"
+      },
+      "userName": "I355486",
+      "name": {
+        "familyName": "Lal",
+        "givenName": "Priyambada"
+      },
+      "emails": [
+        {
+          "value": "Priyambada_Lal@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-5532"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-06-24T20:14:47.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "96a3076b-55f2-4cb2-8ce9-ce593d6d1dce",
+      "externalId": "cn=U267033,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-11T15:30:39.942Z",
+        "lastModified": "2016-07-11T15:30:39.942Z"
+      },
+      "userName": "u267033",
+      "name": {
+        "familyName": "Fields",
+        "givenName": "Marshall"
+      },
+      "emails": [
+        {
+          "value": "Marshall_Fields@bcbsil.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "312-653-4598"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-11T15:30:39.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "b2ace613-b497-4f42-9736-a63a5291f49f",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-15T16:31:03.137Z",
+        "lastModified": "2016-07-15T16:31:03.137Z"
+      },
+      "userName": "p-spring-cloud-services",
+      "name": {
+        "familyName": "p-spring-cloud-services",
+        "givenName": "p-spring-cloud-services"
+      },
+      "emails": [
+        {
+          "value": "p-spring-cloud-services",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": false,
+      "origin": "uaa",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-15T16:31:03.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "6239e07e-0899-4135-bc01-aa8bf06cd79a",
+      "externalId": "cn=MLE_DEVOPS,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-20T18:04:17.289Z",
+        "lastModified": "2016-07-20T18:04:17.289Z"
+      },
+      "userName": "mle_devops",
+      "name": {
+        "familyName": "mle_devops",
+        "givenName": "mle_devops"
+      },
+      "emails": [
+        {
+          "value": "NONE@BCBSIL.COM",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "555-555-5555"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-20T18:04:17.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "bcd93ef0-1ec1-4ce7-b42d-abadfb8d7bd9",
+      "externalId": "cn=I267697,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-22T14:16:20.956Z",
+        "lastModified": "2016-07-22T14:16:20.956Z"
+      },
+      "userName": "I267697",
+      "name": {
+        "familyName": "Knowlton",
+        "givenName": "Rod"
+      },
+      "emails": [
+        {
+          "value": "Rod_Knowlton@hcsc.net",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "918-551-3559"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-22T14:16:20.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "549ee719-0586-49c3-9312-6358697d2f4f",
+      "externalId": "cn=I324488,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-28T15:00:04.734Z",
+        "lastModified": "2016-07-28T15:00:04.734Z"
+      },
+      "userName": "I324488",
+      "name": {
+        "familyName": "Ramanathan",
+        "givenName": "Ravindran"
+      },
+      "emails": [
+        {
+          "value": "Ravindran_Ramanathan@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "972-766-7027"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-28T15:00:04.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "33b121f7-8b30-422f-a686-e3fbd74b5e81",
+      "externalId": "cn=I309459,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-07-28T15:01:09.584Z",
+        "lastModified": "2016-07-28T15:01:09.584Z"
+      },
+      "userName": "i309459",
+      "name": {
+        "familyName": "Anaparthy",
+        "givenName": "Priya"
+      },
+      "emails": [
+        {
+          "value": "Priya_Anaparthy@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "972-766-1361"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-07-28T15:01:09.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "7d3444f8-50f6-4523-972d-a162dda30eaf",
+      "externalId": "cn=I357713,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-08-15T21:01:45.101Z",
+        "lastModified": "2016-08-15T21:01:45.101Z"
+      },
+      "userName": "i357713",
+      "name": {
+        "familyName": "Naik",
+        "givenName": "Ashok"
+      },
+      "emails": [
+        {
+          "value": "Ashok_Naik@bcbstx.com",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-08-15T21:01:45.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    },
+    {
+      "id": "7a609a15-9f51-46c4-85fb-1bb55742076f",
+      "externalId": "cn=CSEMISID,ou=EMPL,o=INTLDAP",
+      "meta": {
+        "version": 0,
+        "created": "2016-08-16T16:03:09.237Z",
+        "lastModified": "2016-08-16T16:03:09.237Z"
+      },
+      "userName": "csemisid",
+      "name": {
+        "familyName": "csemisid",
+        "givenName": "csemisid"
+      },
+      "emails": [
+        {
+          "value": "NONE@BCBSIL.COM",
+          "primary": false
+        }
+      ],
+      "groups": [
+        {
+          "value": "8216ea39-e2f3-4386-b7cc-7f9dab952634",
+          "display": "password.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "de284a26-f685-4b18-ac59-b1fd60f41dc0",
+          "display": "profile",
+          "type": "DIRECT"
+        },
+        {
+          "value": "0cd02df6-4a8d-450d-b227-8462c61d4cc2",
+          "display": "openid",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bcf5a345-a099-4e2f-8f88-4f50c96a563d",
+          "display": "notification_preferences.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "8e158cb3-0ec2-4a37-a5ab-e77bca496bad",
+          "display": "cloud_controller.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "470aa316-9814-4327-a1fa-31430d23e07a",
+          "display": "approvals.me",
+          "type": "DIRECT"
+        },
+        {
+          "value": "61a2c019-7cd1-4bab-8304-ead7accd91e3",
+          "display": "notification_preferences.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "f07509cb-0f2d-458a-ba06-7dcc96d3274c",
+          "display": "cloud_controller_service_permissions.read",
+          "type": "DIRECT"
+        },
+        {
+          "value": "e805067b-b61d-4110-bbbb-642f462aa7c7",
+          "display": "roles",
+          "type": "DIRECT"
+        },
+        {
+          "value": "29edf956-801a-465d-a017-c275d2f4beeb",
+          "display": "oauth.approvals",
+          "type": "DIRECT"
+        },
+        {
+          "value": "45b1fc67-9b21-4752-85ba-cfb10983a0bf",
+          "display": "cloud_controller.write",
+          "type": "DIRECT"
+        },
+        {
+          "value": "bc861957-0599-4002-9fb2-dc46d0ca3ab5",
+          "display": "uaa.user",
+          "type": "DIRECT"
+        },
+        {
+          "value": "4269f3cd-70be-46c3-ad78-892c60624791",
+          "display": "user_attributes",
+          "type": "DIRECT"
+        },
+        {
+          "value": "d0c46dc5-79aa-4803-a837-4dd6410d4eda",
+          "display": "scim.me",
+          "type": "DIRECT"
+        }
+      ],
+      "approvals": [
+
+      ],
+      "phoneNumbers": [
+        {
+          "value": "555-555-5555"
+        }
+      ],
+      "active": true,
+      "verified": true,
+      "origin": "ldap",
+      "zoneId": "uaa",
+      "passwordLastModified": "2016-08-16T16:03:09.000Z",
+      "schemas": [
+        "urn:scim:schemas:core:1.0"
+      ]
+    }
+  ],
+  "startIndex": 1,
+  "itemsPerPage": 100,
+  "totalResults": 52,
+  "schemas": [
+    "urn:scim:schemas:core:1.0"
+  ]
+}

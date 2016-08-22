@@ -185,12 +185,12 @@ func TestGetListIdentityZones(t *testing.T) {
 	}
 }
 
-func TestGetListUsers(t *testing.T) {
+func TestGetListUsersWithUaa20Model(t *testing.T) {
 	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		data, err := ioutil.ReadFile("../testdata/users.json")
+		data, err := ioutil.ReadFile("../test-data/list-users-2.0.json")
 
 		if err != nil {
-			panic("Failed to read ../testdata/users.json: " + err.Error())
+			panic("Failed to read ../test-data/list-users-2.0.json: " + err.Error())
 		}
 
 		w.Write(data)

@@ -8,7 +8,16 @@ Retrieves the list of Users from the Cloud Controller API and the UAA API and ou
 Since this plugin requires access to UAA, the following environment variables are required:
 
 ```
-export UAA_SERVERURL=https://uaa.local.pcfdev.io
 export UAA_CLIENTID=admin
 export UAA_CLIENTSECRET=admin-client-secret
 ```
+
+# Install the plugin:
+
+`cf install-plugin user-migration-plugin`
+
+## Build the plugin
+
+Build it for Linux:
+
+`GOOS=linux GOARCH=amd64 go build`

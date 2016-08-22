@@ -76,8 +76,16 @@ func (cmd *UserMigrationCmd) UserMigrationCommand(cli plugin.CliConnection, args
 }
 
 func (cmd *UserMigrationCmd) printUserReport(cli plugin.CliConnection) {
-	var uaaConnInfo uaa.ConnectionInfo
-	err := envconfig.Process("uaa", &uaaConnInfo)
+	apiEndpoint, err := cli.ApiEndpoint()
+	if err != nil {
+		fmt.Println("Failed to get api endpoint from plugin.CliConnection: ", err.Error())
+	}
+
+	uaaEndpoint := strings.Replace(apiEndpoint, "api", "uaa", 1)
+	fmt.Println("derived uaa endpoint: ", uaaEndpoint)
+
+	uaaConnInfo := uaa.ConnectionInfo{ServerURL: uaaEndpoint}
+	err = envconfig.Process("uaa", &uaaConnInfo)
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
