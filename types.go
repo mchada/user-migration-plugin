@@ -9,14 +9,14 @@ type PagedResponse struct {
 	NextUrl      string `json:"next_url"`
 }
 
-type UsersResponse struct {
-	*PagedResponse
-	Resources []*UserResource `json:"resources"`
-}
-
 type ResourceMetadata struct {
 	URL  string `json:"url"`
 	GUID string `json:"guid"`
+}
+
+type UsersResponse struct {
+	*PagedResponse
+	Resources []*UserResource `json:"resources"`
 }
 
 type UserResource struct {
@@ -41,7 +41,7 @@ type SpaceResource struct {
 
 type User struct {
 	Admin    bool   `json:"admin"`
-	Active   bool   `json:"admin"`
+	Active   bool   `json:"active"`
 	Username string `json:"username"`
 }
 

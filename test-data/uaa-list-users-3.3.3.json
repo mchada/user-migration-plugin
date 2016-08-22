@@ -1,0 +1,5 @@
+{
+  "error_description": "Invalid attributes: [external_id=pr]",
+  "error": "scim",
+  "message": "Invalid attributes: [external_id=pr]"
+}

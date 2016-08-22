@@ -1,0 +1,1055 @@
+{
+   "total_results": 56,
+   "total_pages": 2,
+   "prev_url": null,
+   "next_url": "/v2/users?order-direction=asc&page=2&results-per-page=50",
+   "resources": [
+      {
+         "metadata": {
+            "guid": "96c1d7f1-0f3e-4946-a041-003cea7650eb",
+            "url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb",
+            "created_at": "2015-10-13T03:31:34Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "push_apps_manager",
+            "spaces_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/spaces",
+            "organizations_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/organizations",
+            "managed_organizations_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/audited_organizations",
+            "managed_spaces_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/managed_spaces",
+            "audited_spaces_url": "/v2/users/96c1d7f1-0f3e-4946-a041-003cea7650eb/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d2772873-4b75-4c7d-aafb-e1ef968ec31b",
+            "url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b",
+            "created_at": "2015-10-13T03:35:12Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "smoke_tests",
+            "spaces_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/spaces",
+            "organizations_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/organizations",
+            "managed_organizations_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/audited_organizations",
+            "managed_spaces_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/managed_spaces",
+            "audited_spaces_url": "/v2/users/d2772873-4b75-4c7d-aafb-e1ef968ec31b/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "portal",
+            "url": "/v2/users/portal",
+            "created_at": "2015-10-13T03:39:37Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "spaces_url": "/v2/users/portal/spaces",
+            "organizations_url": "/v2/users/portal/organizations",
+            "managed_organizations_url": "/v2/users/portal/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/portal/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/portal/audited_organizations",
+            "managed_spaces_url": "/v2/users/portal/managed_spaces",
+            "audited_spaces_url": "/v2/users/portal/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8c0743cd-3866-4c3f-b667-95e5bfa0b525",
+            "url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525",
+            "created_at": "2015-10-13T03:42:38Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "admin",
+            "spaces_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/spaces",
+            "organizations_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/organizations",
+            "managed_organizations_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/audited_organizations",
+            "managed_spaces_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/managed_spaces",
+            "audited_spaces_url": "/v2/users/8c0743cd-3866-4c3f-b667-95e5bfa0b525/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "2297fba2-3087-4554-84ab-89c69c27e774",
+            "url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774",
+            "created_at": "2015-11-18T02:33:20Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i275943",
+            "spaces_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/spaces",
+            "organizations_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/organizations",
+            "managed_organizations_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/audited_organizations",
+            "managed_spaces_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/managed_spaces",
+            "audited_spaces_url": "/v2/users/2297fba2-3087-4554-84ab-89c69c27e774/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1b4f41ca-bd39-4b9a-95c9-6958ce3527b0",
+            "url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0",
+            "created_at": "2015-11-18T03:17:33Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "a265653",
+            "spaces_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/spaces",
+            "organizations_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/organizations",
+            "managed_organizations_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/audited_organizations",
+            "managed_spaces_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/managed_spaces",
+            "audited_spaces_url": "/v2/users/1b4f41ca-bd39-4b9a-95c9-6958ce3527b0/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "6dfd9d7f-2bf8-4ff2-a832-0f1454c20492",
+            "url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492",
+            "created_at": "2015-11-18T14:05:06Z",
+            "updated_at": "2016-03-08T22:19:11Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i326833",
+            "spaces_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/spaces",
+            "organizations_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/organizations",
+            "managed_organizations_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/audited_organizations",
+            "managed_spaces_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/managed_spaces",
+            "audited_spaces_url": "/v2/users/6dfd9d7f-2bf8-4ff2-a832-0f1454c20492/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e1e12708-77a3-424d-875d-bbc32590b57a",
+            "url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a",
+            "created_at": "2015-11-18T14:14:09Z",
+            "updated_at": "2016-04-11T14:56:04Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i262031",
+            "spaces_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/spaces",
+            "organizations_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/organizations",
+            "managed_organizations_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/audited_organizations",
+            "managed_spaces_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/managed_spaces",
+            "audited_spaces_url": "/v2/users/e1e12708-77a3-424d-875d-bbc32590b57a/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "879205cd-0e20-4424-923f-a8a9506e8d1a",
+            "url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a",
+            "created_at": "2015-11-18T14:21:42Z",
+            "updated_at": "2016-03-08T22:19:17Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "I306572",
+            "spaces_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/spaces",
+            "organizations_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/organizations",
+            "managed_organizations_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/audited_organizations",
+            "managed_spaces_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/managed_spaces",
+            "audited_spaces_url": "/v2/users/879205cd-0e20-4424-923f-a8a9506e8d1a/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95",
+            "url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95",
+            "created_at": "2015-11-18T15:15:32Z",
+            "updated_at": "2016-03-08T22:18:48Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i259072",
+            "spaces_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/spaces",
+            "organizations_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/organizations",
+            "managed_organizations_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/audited_organizations",
+            "managed_spaces_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/managed_spaces",
+            "audited_spaces_url": "/v2/users/50dab4e1-59c2-43ec-a4ff-ca1c0d23fe95/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "2241dc38-bb8e-48be-ba52-bb55039b1553",
+            "url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553",
+            "created_at": "2015-11-18T15:57:32Z",
+            "updated_at": "2016-03-08T22:18:49Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "I316157",
+            "spaces_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/spaces",
+            "organizations_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/organizations",
+            "managed_organizations_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/audited_organizations",
+            "managed_spaces_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/managed_spaces",
+            "audited_spaces_url": "/v2/users/2241dc38-bb8e-48be-ba52-bb55039b1553/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "feb3832b-3fec-413c-a066-6c124e99b0e7",
+            "url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7",
+            "created_at": "2015-11-18T17:59:54Z",
+            "updated_at": "2016-03-08T22:19:19Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i348377",
+            "spaces_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/spaces",
+            "organizations_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/organizations",
+            "managed_organizations_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/audited_organizations",
+            "managed_spaces_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/managed_spaces",
+            "audited_spaces_url": "/v2/users/feb3832b-3fec-413c-a066-6c124e99b0e7/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ed994c5b-6320-40a9-a371-c634d8252f48",
+            "url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48",
+            "created_at": "2015-11-19T16:38:27Z",
+            "updated_at": "2015-12-04T21:24:00Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i269522",
+            "spaces_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/spaces",
+            "organizations_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/organizations",
+            "managed_organizations_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/audited_organizations",
+            "managed_spaces_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/managed_spaces",
+            "audited_spaces_url": "/v2/users/ed994c5b-6320-40a9-a371-c634d8252f48/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d963acb7-bea1-4f51-a5f3-a7efdf6853c4",
+            "url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4",
+            "created_at": "2015-12-04T20:57:09Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i339255",
+            "spaces_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/spaces",
+            "organizations_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/organizations",
+            "managed_organizations_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/audited_organizations",
+            "managed_spaces_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/managed_spaces",
+            "audited_spaces_url": "/v2/users/d963acb7-bea1-4f51-a5f3-a7efdf6853c4/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "092e4854-49ef-44cd-a9bd-ae065ac7b90e",
+            "url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e",
+            "created_at": "2016-01-05T15:11:08Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i260746",
+            "spaces_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/spaces",
+            "organizations_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/organizations",
+            "managed_organizations_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/audited_organizations",
+            "managed_spaces_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/managed_spaces",
+            "audited_spaces_url": "/v2/users/092e4854-49ef-44cd-a9bd-ae065ac7b90e/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e4c27551-94a5-4374-b186-f5c1b33e11d5",
+            "url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5",
+            "created_at": "2016-01-14T17:39:53Z",
+            "updated_at": "2016-03-08T22:19:21Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i263305",
+            "spaces_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/spaces",
+            "organizations_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/organizations",
+            "managed_organizations_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/audited_organizations",
+            "managed_spaces_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/managed_spaces",
+            "audited_spaces_url": "/v2/users/e4c27551-94a5-4374-b186-f5c1b33e11d5/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "405d2399-558c-4662-b1cf-40eec3b5ba8c",
+            "url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c",
+            "created_at": "2016-01-15T16:33:49Z",
+            "updated_at": "2016-03-08T22:19:47Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i275275",
+            "spaces_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/spaces",
+            "organizations_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/organizations",
+            "managed_organizations_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/audited_organizations",
+            "managed_spaces_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/managed_spaces",
+            "audited_spaces_url": "/v2/users/405d2399-558c-4662-b1cf-40eec3b5ba8c/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "7d6ed5f9-bca2-43cf-8136-0330ea29c8fd",
+            "url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd",
+            "created_at": "2016-01-15T16:35:31Z",
+            "updated_at": "2016-03-08T22:19:47Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i274111",
+            "spaces_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/spaces",
+            "organizations_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/organizations",
+            "managed_organizations_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/audited_organizations",
+            "managed_spaces_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/managed_spaces",
+            "audited_spaces_url": "/v2/users/7d6ed5f9-bca2-43cf-8136-0330ea29c8fd/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8d9f5d17-4de7-4027-9582-739a63eb8773",
+            "url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773",
+            "created_at": "2016-01-15T16:51:49Z",
+            "updated_at": "2016-03-08T22:19:48Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i264811",
+            "spaces_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/spaces",
+            "organizations_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/organizations",
+            "managed_organizations_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/audited_organizations",
+            "managed_spaces_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/managed_spaces",
+            "audited_spaces_url": "/v2/users/8d9f5d17-4de7-4027-9582-739a63eb8773/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "85559ee3-f473-4a28-be80-517e66551a97",
+            "url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97",
+            "created_at": "2016-01-15T16:58:54Z",
+            "updated_at": "2016-03-08T22:19:49Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i306295",
+            "spaces_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/spaces",
+            "organizations_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/organizations",
+            "managed_organizations_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/audited_organizations",
+            "managed_spaces_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/managed_spaces",
+            "audited_spaces_url": "/v2/users/85559ee3-f473-4a28-be80-517e66551a97/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "3eda733f-361f-4f44-978f-86558e5c697d",
+            "url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d",
+            "created_at": "2016-01-20T21:39:08Z",
+            "updated_at": "2016-03-08T22:19:49Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i330785",
+            "spaces_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/spaces",
+            "organizations_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/organizations",
+            "managed_organizations_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/audited_organizations",
+            "managed_spaces_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/managed_spaces",
+            "audited_spaces_url": "/v2/users/3eda733f-361f-4f44-978f-86558e5c697d/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "faf06e46-5fa7-4e75-bc10-1e17c328c44f",
+            "url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f",
+            "created_at": "2016-01-21T18:35:22Z",
+            "updated_at": "2016-03-08T22:19:50Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i320988",
+            "spaces_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/spaces",
+            "organizations_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/organizations",
+            "managed_organizations_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/audited_organizations",
+            "managed_spaces_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/managed_spaces",
+            "audited_spaces_url": "/v2/users/faf06e46-5fa7-4e75-bc10-1e17c328c44f/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "bc89ea58-f1e1-4c73-8739-338503aa1c82",
+            "url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82",
+            "created_at": "2016-01-21T19:29:55Z",
+            "updated_at": "2016-03-08T22:19:50Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i338197",
+            "spaces_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/spaces",
+            "organizations_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/organizations",
+            "managed_organizations_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/audited_organizations",
+            "managed_spaces_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/managed_spaces",
+            "audited_spaces_url": "/v2/users/bc89ea58-f1e1-4c73-8739-338503aa1c82/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b5d71ecc-30b4-48ea-8ffc-4df4512dad1c",
+            "url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c",
+            "created_at": "2016-01-25T21:31:28Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i275905",
+            "spaces_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/spaces",
+            "organizations_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/organizations",
+            "managed_organizations_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/audited_organizations",
+            "managed_spaces_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/managed_spaces",
+            "audited_spaces_url": "/v2/users/b5d71ecc-30b4-48ea-8ffc-4df4512dad1c/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9ac37783-3912-461d-a995-1f924fcd8a53",
+            "url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53",
+            "created_at": "2016-01-28T22:01:23Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i320541",
+            "spaces_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/spaces",
+            "organizations_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/organizations",
+            "managed_organizations_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/audited_organizations",
+            "managed_spaces_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/managed_spaces",
+            "audited_spaces_url": "/v2/users/9ac37783-3912-461d-a995-1f924fcd8a53/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c22a047d-6b81-4221-b904-dcbca3c1b4c3",
+            "url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3",
+            "created_at": "2016-02-08T03:48:01Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "system_services",
+            "spaces_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/spaces",
+            "organizations_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/organizations",
+            "managed_organizations_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/audited_organizations",
+            "managed_spaces_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/managed_spaces",
+            "audited_spaces_url": "/v2/users/c22a047d-6b81-4221-b904-dcbca3c1b4c3/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "19f59c67-1ed2-4128-a0a8-c0b4423ec3dd",
+            "url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd",
+            "created_at": "2016-02-09T19:28:38Z",
+            "updated_at": "2016-03-08T22:19:52Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i032789",
+            "spaces_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/spaces",
+            "organizations_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/organizations",
+            "managed_organizations_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/audited_organizations",
+            "managed_spaces_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/managed_spaces",
+            "audited_spaces_url": "/v2/users/19f59c67-1ed2-4128-a0a8-c0b4423ec3dd/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "88406c2f-0cdb-4c91-9b85-b766bd7a133d",
+            "url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d",
+            "created_at": "2016-02-23T19:19:21Z",
+            "updated_at": "2016-04-22T15:08:04Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i266496",
+            "spaces_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/spaces",
+            "organizations_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/organizations",
+            "managed_organizations_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/audited_organizations",
+            "managed_spaces_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/managed_spaces",
+            "audited_spaces_url": "/v2/users/88406c2f-0cdb-4c91-9b85-b766bd7a133d/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c19b1157-7ae9-4d08-8860-ed8d2f2edb6b",
+            "url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b",
+            "created_at": "2016-02-23T19:33:35Z",
+            "updated_at": "2016-03-08T22:20:05Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i259191",
+            "spaces_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/spaces",
+            "organizations_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/organizations",
+            "managed_organizations_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/audited_organizations",
+            "managed_spaces_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/managed_spaces",
+            "audited_spaces_url": "/v2/users/c19b1157-7ae9-4d08-8860-ed8d2f2edb6b/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "61681fb3-a5c2-4f11-9c00-04d9cdaf22c2",
+            "url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2",
+            "created_at": "2016-02-24T21:23:26Z",
+            "updated_at": "2016-03-08T22:20:06Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "u306991",
+            "spaces_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/spaces",
+            "organizations_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/organizations",
+            "managed_organizations_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/audited_organizations",
+            "managed_spaces_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/managed_spaces",
+            "audited_spaces_url": "/v2/users/61681fb3-a5c2-4f11-9c00-04d9cdaf22c2/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1282a737-5ac9-4050-91be-2dcc78fe9a4f",
+            "url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f",
+            "created_at": "2016-03-19T22:34:12Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "spaces_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/spaces",
+            "organizations_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/organizations",
+            "managed_organizations_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/audited_organizations",
+            "managed_spaces_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/managed_spaces",
+            "audited_spaces_url": "/v2/users/1282a737-5ac9-4050-91be-2dcc78fe9a4f/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "68eb004d-7d0c-4c43-9583-a21f088aad5a",
+            "url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a",
+            "created_at": "2016-03-23T19:38:33Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i257285",
+            "spaces_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/spaces",
+            "organizations_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/organizations",
+            "managed_organizations_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/audited_organizations",
+            "managed_spaces_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/managed_spaces",
+            "audited_spaces_url": "/v2/users/68eb004d-7d0c-4c43-9583-a21f088aad5a/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "7726522c-59c0-4cdf-b86d-61c7868246bf",
+            "url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf",
+            "created_at": "2016-04-05T20:03:01Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i310533",
+            "spaces_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/spaces",
+            "organizations_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/organizations",
+            "managed_organizations_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/audited_organizations",
+            "managed_spaces_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/managed_spaces",
+            "audited_spaces_url": "/v2/users/7726522c-59c0-4cdf-b86d-61c7868246bf/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "affec18a-87cb-4fa3-9f22-5f69b1ad2983",
+            "url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983",
+            "created_at": "2016-04-11T14:20:07Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "I339023",
+            "spaces_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/spaces",
+            "organizations_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/organizations",
+            "managed_organizations_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/audited_organizations",
+            "managed_spaces_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/managed_spaces",
+            "audited_spaces_url": "/v2/users/affec18a-87cb-4fa3-9f22-5f69b1ad2983/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "18fb64a7-9a9e-4f39-b9e2-36717edc6e7b",
+            "url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b",
+            "created_at": "2016-04-11T14:21:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i311600",
+            "spaces_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/spaces",
+            "organizations_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/organizations",
+            "managed_organizations_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/audited_organizations",
+            "managed_spaces_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/managed_spaces",
+            "audited_spaces_url": "/v2/users/18fb64a7-9a9e-4f39-b9e2-36717edc6e7b/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "2f2c5ac3-7456-4bd4-b930-70b5e173844d",
+            "url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d",
+            "created_at": "2016-04-11T14:25:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i335964",
+            "spaces_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/spaces",
+            "organizations_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/organizations",
+            "managed_organizations_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/audited_organizations",
+            "managed_spaces_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/managed_spaces",
+            "audited_spaces_url": "/v2/users/2f2c5ac3-7456-4bd4-b930-70b5e173844d/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b2eab455-960d-4595-bd73-0ed79d78bbca",
+            "url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca",
+            "created_at": "2016-04-22T14:17:29Z",
+            "updated_at": "2016-04-22T14:33:38Z"
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "cse_devops",
+            "spaces_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/spaces",
+            "organizations_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/organizations",
+            "managed_organizations_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/audited_organizations",
+            "managed_spaces_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/managed_spaces",
+            "audited_spaces_url": "/v2/users/b2eab455-960d-4595-bd73-0ed79d78bbca/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "apps_metrics_processing",
+            "url": "/v2/users/apps_metrics_processing",
+            "created_at": "2016-04-27T16:00:42Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "spaces_url": "/v2/users/apps_metrics_processing/spaces",
+            "organizations_url": "/v2/users/apps_metrics_processing/organizations",
+            "managed_organizations_url": "/v2/users/apps_metrics_processing/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/apps_metrics_processing/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/apps_metrics_processing/audited_organizations",
+            "managed_spaces_url": "/v2/users/apps_metrics_processing/managed_spaces",
+            "audited_spaces_url": "/v2/users/apps_metrics_processing/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9d2aa1a7-293b-4297-9961-d8443d89c126",
+            "url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126",
+            "created_at": "2016-05-04T16:18:30Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "dep_devops",
+            "spaces_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/spaces",
+            "organizations_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/organizations",
+            "managed_organizations_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/audited_organizations",
+            "managed_spaces_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/managed_spaces",
+            "audited_spaces_url": "/v2/users/9d2aa1a7-293b-4297-9961-d8443d89c126/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "685c8231-0870-4dbe-a6cf-daf8d9b072ed",
+            "url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed",
+            "created_at": "2016-06-22T15:17:07Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i350289",
+            "spaces_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/spaces",
+            "organizations_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/organizations",
+            "managed_organizations_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/audited_organizations",
+            "managed_spaces_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/managed_spaces",
+            "audited_spaces_url": "/v2/users/685c8231-0870-4dbe-a6cf-daf8d9b072ed/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "98841534-c71e-468a-9879-db6665c5dfa9",
+            "url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9",
+            "created_at": "2016-06-22T15:18:39Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i355611",
+            "spaces_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/spaces",
+            "organizations_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/organizations",
+            "managed_organizations_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/audited_organizations",
+            "managed_spaces_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/managed_spaces",
+            "audited_spaces_url": "/v2/users/98841534-c71e-468a-9879-db6665c5dfa9/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "65e72c2c-2aeb-4dcf-9461-6a00d7d9191b",
+            "url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b",
+            "created_at": "2016-06-22T15:23:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "I331846",
+            "spaces_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/spaces",
+            "organizations_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/organizations",
+            "managed_organizations_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/audited_organizations",
+            "managed_spaces_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/managed_spaces",
+            "audited_spaces_url": "/v2/users/65e72c2c-2aeb-4dcf-9461-6a00d7d9191b/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ac5877a4-5802-4077-91c5-a3895718fe94",
+            "url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94",
+            "created_at": "2016-06-23T01:42:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i339004",
+            "spaces_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/spaces",
+            "organizations_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/organizations",
+            "managed_organizations_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/audited_organizations",
+            "managed_spaces_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/managed_spaces",
+            "audited_spaces_url": "/v2/users/ac5877a4-5802-4077-91c5-a3895718fe94/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1bc63de9-3e16-44ec-bcc6-d570e8b80db9",
+            "url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9",
+            "created_at": "2016-06-23T13:39:29Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i320559",
+            "spaces_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/spaces",
+            "organizations_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/organizations",
+            "managed_organizations_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/audited_organizations",
+            "managed_spaces_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/managed_spaces",
+            "audited_spaces_url": "/v2/users/1bc63de9-3e16-44ec-bcc6-d570e8b80db9/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5c156091-0b0b-4b49-8f50-96897b5d380b",
+            "url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b",
+            "created_at": "2016-06-24T18:52:05Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "i320188",
+            "spaces_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/spaces",
+            "organizations_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/organizations",
+            "managed_organizations_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/audited_organizations",
+            "managed_spaces_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/managed_spaces",
+            "audited_spaces_url": "/v2/users/5c156091-0b0b-4b49-8f50-96897b5d380b/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d",
+            "url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d",
+            "created_at": "2016-06-24T20:14:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "I355486",
+            "spaces_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/spaces",
+            "organizations_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/organizations",
+            "managed_organizations_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/audited_organizations",
+            "managed_spaces_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/managed_spaces",
+            "audited_spaces_url": "/v2/users/07a573cc-aa46-4a7e-aaa5-7c3ccc2ef82d/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "96a3076b-55f2-4cb2-8ce9-ce593d6d1dce",
+            "url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce",
+            "created_at": "2016-07-11T15:30:52Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "u267033",
+            "spaces_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/spaces",
+            "organizations_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/organizations",
+            "managed_organizations_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/audited_organizations",
+            "managed_spaces_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/managed_spaces",
+            "audited_spaces_url": "/v2/users/96a3076b-55f2-4cb2-8ce9-ce593d6d1dce/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f0f22f9a-d498-4c5e-91ba-483b8de2b709",
+            "url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709",
+            "created_at": "2016-07-15T16:25:53Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "system_verification",
+            "spaces_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/spaces",
+            "organizations_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/organizations",
+            "managed_organizations_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/audited_organizations",
+            "managed_spaces_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/managed_spaces",
+            "audited_spaces_url": "/v2/users/f0f22f9a-d498-4c5e-91ba-483b8de2b709/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b2ace613-b497-4f42-9736-a63a5291f49f",
+            "url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f",
+            "created_at": "2016-07-15T16:31:03Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "p-spring-cloud-services",
+            "spaces_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/spaces",
+            "organizations_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/organizations",
+            "managed_organizations_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/audited_organizations",
+            "managed_spaces_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/managed_spaces",
+            "audited_spaces_url": "/v2/users/b2ace613-b497-4f42-9736-a63a5291f49f/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "6239e07e-0899-4135-bc01-aa8bf06cd79a",
+            "url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a",
+            "created_at": "2016-07-20T18:04:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "mle_devops",
+            "spaces_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/spaces",
+            "organizations_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/organizations",
+            "managed_organizations_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/audited_organizations",
+            "managed_spaces_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/managed_spaces",
+            "audited_spaces_url": "/v2/users/6239e07e-0899-4135-bc01-aa8bf06cd79a/audited_spaces"
+         }
+      }
+   ]
+}

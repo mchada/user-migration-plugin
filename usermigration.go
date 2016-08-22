@@ -106,10 +106,20 @@ func (cmd *UserMigrationCmd) printUserReport(cli plugin.CliConnection) {
 	userMigrations := make([]*userMigration, 0)
 	usersResponse, _ := cmd.getUsers(cli)
 	for _, userResource := range usersResponse.Resources {
+		if len(userResource.Entity.Username) == 0 {
+			fmt.Printf("User with GUID %s has no username in CC :(\n", userResource.Metadata.GUID)
+			continue
+		}
+
 		userMigration := &userMigration{}
 		userMigration.Username = userResource.Entity.Username
 
 		uaaUser := findUaaUser(userResource, &uaaUsers)
+		if uaaUser == nil {
+			fmt.Printf("UAA User not found for CC user with username%s\n", userResource.Entity.Username)
+			continue
+		}
+
 		userMigration.ExternalID = uaaUser.ExternalID
 		userMigration.Emails = uaaUser.Emails
 
