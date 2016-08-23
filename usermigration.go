@@ -65,7 +65,7 @@ func (cmd *UserMigrationCmd) UserMigrationCommand(cli plugin.CliConnection, args
 	log.SetOutput(os.Stdout)
 
 	if args[0] == pluginName && args[1] == "export" {
-		cmd.exportUsers(cli, args[3])
+		cmd.exportUsers(cli, args[2])
 	} else if args[0] == pluginName && args[1] == "import" {
 		cmd.importUsers(cli, args[2])
 	}
