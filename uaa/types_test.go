@@ -189,10 +189,10 @@ func TestJSONUnmarshallIdentityZone(t *testing.T) {
 }
 
 func TestJSONUnmarshallUsersWithUaa20Model(t *testing.T) {
-	responseBody, err := ioutil.ReadFile("../test-data/list-users-2.0.json")
+	responseBody, err := ioutil.ReadFile("../testdata/list-users-2.0.json")
 
 	if err != nil {
-		panic("Failed to read ../test-data/list-users-2.0.json: " + err.Error())
+		panic("Failed to read ../testdata/list-users-2.0.json: " + err.Error())
 	}
 
 	var users Users

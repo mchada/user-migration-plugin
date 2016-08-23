@@ -1,8 +1,7 @@
-package main
+package cf
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"testing"
 )
@@ -74,10 +73,10 @@ func TestJSONUnmarshallUserResourceWith243Model(t *testing.T) {
 }
 
 func TestJSONUnmarshallUsersResponseWith243Model(t *testing.T) {
-	responseBody, err := ioutil.ReadFile("./test-data/cc-list-users-2.43.0.json")
+	responseBody, err := ioutil.ReadFile("./testdata/cc-list-users-2.43.0.json")
 
 	if err != nil {
-		panic("Failed to read ../test-data/cc-list-users-2.43.0.json: " + err.Error())
+		panic("Failed to read ../testdata/cc-list-users-2.43.0.json: " + err.Error())
 	}
 
 	var usersResponse UsersResponse
@@ -94,9 +93,6 @@ func TestJSONUnmarshallUsersResponseWith243Model(t *testing.T) {
 	for _, userResource := range usersResponse.Resources {
 		if len(userResource.Metadata.GUID) == 0 {
 			t.Error("Failed to unmarshall userResource.Metadata.GUID field")
-		}
-		if len(userResource.Entity.Username) == 0 {
-			fmt.Println("userResource.Entity.Username field was blank for user guid ", userResource.Metadata.GUID)
 		}
 	}
 }

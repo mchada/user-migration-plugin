@@ -2,13 +2,15 @@ package main
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
+	"io/ioutil"
+	"log"
 	"os"
 	"strings"
 
 	"github.com/cloudfoundry/cli/plugin"
 	"github.com/kelseyhightower/envconfig"
+	"github.com/pivotalservices/user-migration-plugin/cf"
 	"github.com/pivotalservices/user-migration-plugin/uaa"
 )
 
@@ -16,17 +18,16 @@ const (
 	pluginName string = "user-migration"
 )
 
-type userMigration struct {
-	UID        string
-	Username   string
-	ExternalID string
-	Emails     []uaa.UserEmail
-	OrgRoles   []*OrgRole
-	SpaceRoles []*SpaceRole
-}
-
 //UserMigrationCmd the plugin
 type UserMigrationCmd struct {
+}
+
+func main() {
+	plugin.Start(new(UserMigrationCmd))
+}
+
+func (cmd *UserMigrationCmd) Run(cli plugin.CliConnection, args []string) {
+	cmd.UserMigrationCommand(cli, args)
 }
 
 //GetMetadata returns metatada
@@ -41,21 +42,13 @@ func (cmd *UserMigrationCmd) GetMetadata() plugin.PluginMetadata {
 		Commands: []plugin.Command{
 			{
 				Name:     pluginName,
-				HelpText: "Pulls all Org and Space users from a CF deployment and migrates them all to another CF deployment",
+				HelpText: "Creates an Export of all Users and their Orgs and Spaces by dumping to a specified. Then, you may import the file into a different deployment. Be sure to change your CF API Target and your UAA_CLIENTID and UAA_CLIENTSECRET between export and import!",
 				UsageDetails: plugin.Usage{
-					Usage: "cf user-migration report\n\n",
+					Usage: "cf user-migration export FILE_NAME\n\n   cf user-migration import FILE_NAME",
 				},
 			},
 		},
 	}
-}
-
-func (cmd *UserMigrationCmd) Run(cli plugin.CliConnection, args []string) {
-	cmd.UserMigrationCommand(cli, args)
-}
-
-func main() {
-	plugin.Start(new(UserMigrationCmd))
 }
 
 func (cmd *UserMigrationCmd) UserMigrationCommand(cli plugin.CliConnection, args []string) {
@@ -69,42 +62,29 @@ func (cmd *UserMigrationCmd) UserMigrationCommand(cli plugin.CliConnection, args
 		os.Exit(1)
 	}
 
-	if args[0] == pluginName && args[1] == "report" {
-		cmd.printUserReport(cli)
-	}
+	log.SetOutput(os.Stdout)
 
+	if args[0] == pluginName && args[1] == "export" {
+		cmd.exportUsers(cli, args[3])
+	} else if args[0] == pluginName && args[1] == "import" {
+		cmd.importUsers(cli, args[2])
+	}
 }
 
-func (cmd *UserMigrationCmd) printUserReport(cli plugin.CliConnection) {
-	apiEndpoint, err := cli.ApiEndpoint()
-	if err != nil {
-		fmt.Println("Failed to get api endpoint from plugin.CliConnection: ", err.Error())
-	}
+func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileName string) {
+	uaac := getUaac(cli)
+	cfclient := cf.NewClient()
 
-	uaaEndpoint := strings.Replace(apiEndpoint, "api", "uaa", 1)
-	fmt.Println("derived uaa endpoint: ", uaaEndpoint)
-
-	uaaConnInfo := uaa.ConnectionInfo{ServerURL: uaaEndpoint}
-	err = envconfig.Process("uaa", &uaaConnInfo)
-	if err != nil {
-		fmt.Println(err.Error())
-		os.Exit(1)
-	}
-
-	uaac, err := uaaConnInfo.Connect()
-	if err != nil {
-		fmt.Println("Failed to connect to UAA: ", err.Error())
-		os.Exit(1)
-	}
+	userExport := new(userExport)
+	userExport.CfApiUrl = getApiEndpoint(cli)
 
 	uaaUsers, err := uaac.ListUsers()
 	if err != nil {
-		fmt.Println("Failed to list users from UAA: ", err.Error())
-		return
+		log.Fatalf("Failed to list users from UAA: %v", err)
 	}
 
 	userMigrations := make([]*userMigration, 0)
-	usersResponse, _ := cmd.getUsers(cli)
+	usersResponse, _ := cfclient.GetUsers(cli)
 	for _, userResource := range usersResponse.Resources {
 		if len(userResource.Entity.Username) == 0 {
 			fmt.Printf("User with GUID %s has no username in CC :(\n", userResource.Metadata.GUID)
@@ -114,31 +94,129 @@ func (cmd *UserMigrationCmd) printUserReport(cli plugin.CliConnection) {
 		userMigration := new(userMigration)
 		userMigration.Username = userResource.Entity.Username
 
+		var userSummary cf.UserSummaryResource
+		userSummary, err = cfclient.GetUserSummary(cli, userResource)
+		if err != nil {
+			fmt.Printf("Failed to get user summary for user %s; %v\n", userResource.Entity.Username, err)
+			continue
+		}
+		userMigration.OrgRoles = userSummary.Entity.GetOrgRoles()
+		userMigration.SpaceRoles = userSummary.Entity.GetSpaceRoles()
+
 		uaaUser := findUaaUser(userResource, &uaaUsers)
 		if uaaUser == nil {
 			fmt.Printf("UAA User not found for CC user with username%s\n", userResource.Entity.Username)
 			continue
 		}
 
+		if len(userMigration.ExternalID) == 0 {
+			fmt.Printf("User with GUID %s does not have an ExtneralID in UAA\n", userResource.Metadata.GUID)
+			continue
+		}
+
 		userMigration.ExternalID = uaaUser.ExternalID
 		userMigration.Emails = uaaUser.Emails
-
-		userSummary, _ := cmd.getUserSummary(cli, userResource)
-		userMigration.OrgRoles = userSummary.Entity.getOrgRoles()
-		userMigration.SpaceRoles = userSummary.Entity.getSpaceRoles()
 
 		userMigrations = append(userMigrations, userMigration)
 	}
 
-	b, err := json.MarshalIndent(userMigrations, "", "  ")
+	userExport.UserMigrations = userMigrations
+	b, err := json.MarshalIndent(userExport, "", "  ")
 	if err != nil {
 		fmt.Println("error marshalling user migrations to json:", err)
 	}
-	os.Stdout.Write(b)
 
+	if err = ioutil.WriteFile(exportFileName, b, 0755); err != nil {
+		fmt.Printf("Failed to write output to file %s; err: %v", exportFileName, err)
+	}
 }
 
-func findUaaUser(userResource *UserResource, uaaUsers *uaa.Users) *uaa.User {
+func (cmd *UserMigrationCmd) importUsers(cli plugin.CliConnection, exportFileName string) {
+	fileData, err := ioutil.ReadFile(exportFileName)
+
+	if err != nil {
+		log.Fatalf("Failed to read %s. Error: %v", exportFileName, err)
+	}
+
+	var export userExport
+
+	err = json.Unmarshal(fileData, &export)
+	if err != nil {
+		log.Fatalf("Failed to unmarshall json to userExport: %v", err)
+	}
+
+	if getApiEndpoint(cli) == export.CfApiUrl {
+		log.Fatalf("You are currently targeting the cf deployment which users were exported from. Please target the new environment using 'cf api' and run this command again")
+	}
+
+	uaac := getUaac(cli)
+	cfclient := cf.NewClient()
+
+	fmt.Printf("importing %d users\n", len(export.UserMigrations))
+	for i, userMigration := range export.UserMigrations {
+		uaaUser := &uaa.User{
+			Username:   userMigration.Username,
+			ExternalID: userMigration.ExternalID,
+			Emails:     userMigration.Emails,
+			Origin:     "ldap",
+		}
+
+		userGuid, err := uaac.CreateUser(uaaUser)
+		if err != nil {
+			fmt.Printf("%d Failed to create uaa user: %v\n", i, err)
+			continue
+		}
+
+		if len(userGuid) == 0 {
+			fmt.Printf("%d uaa user guid not found for username %s\n", i, userMigration.Username)
+			continue
+		}
+
+		if err := cfclient.CreateUser(cli, userGuid); err != nil {
+			fmt.Printf("%d Failed to create cf user %s: %v\n", i, userMigration.Username, err)
+			continue
+		}
+
+		if err := cfclient.SetOrgRoles(cli, userMigration.Username, userMigration.OrgRoles); err != nil {
+			fmt.Printf("%d Failed to set org roles for cf user %s; %v\n", i, userMigration.Username, err)
+		}
+
+		if err := cfclient.SetSpaceRoles(cli, userMigration.Username, userMigration.SpaceRoles); err != nil {
+			fmt.Printf("%d Failed to set space roles for cf user %s; %v\n", i, userMigration.Username, err)
+		}
+
+		fmt.Printf("%d %s imported\n", i, userMigration.Username)
+	}
+}
+
+func getApiEndpoint(cli plugin.CliConnection) string {
+	apiEndpoint, err := cli.ApiEndpoint()
+	if err != nil {
+		log.Fatalf("Failed to get api endpoint from plugin.CliConnection: %v", err)
+	}
+	return apiEndpoint
+}
+
+func getUaac(cli plugin.CliConnection) uaa.Client {
+	apiEndpoint := getApiEndpoint(cli)
+	uaaEndpoint := strings.Replace(apiEndpoint, "api", "uaa", 1)
+	fmt.Println("using derived uaa endpoint: ", uaaEndpoint)
+
+	uaaConnInfo := uaa.ConnectionInfo{ServerURL: uaaEndpoint}
+
+	if err := envconfig.Process("uaa", &uaaConnInfo); err != nil {
+		log.Fatalf("Failed to read process required environment variables: %v", err)
+	}
+
+	uaac, err := uaaConnInfo.Connect()
+	if err != nil {
+		log.Fatalf("Failed to connect to UAA: %v", err)
+	}
+
+	return uaac
+}
+
+func findUaaUser(userResource *cf.UserResource, uaaUsers *uaa.Users) *uaa.User {
 	for _, uaaUser := range uaaUsers.Users {
 		if uaaUser.Username == userResource.Entity.Username {
 			return &uaaUser
@@ -146,65 +224,4 @@ func findUaaUser(userResource *UserResource, uaaUsers *uaa.Users) *uaa.User {
 	}
 
 	return nil
-}
-
-func (cmd *UserMigrationCmd) getUsers(cli plugin.CliConnection) (UsersResponse, error) {
-	var usersResponse UsersResponse
-
-	data, err := cmd.cfcurl(cli, "/v2/users?results-per-page=100")
-
-	if nil != err {
-		return usersResponse, err
-	}
-
-	err = json.Unmarshal(data, &usersResponse)
-
-	if nil != err {
-		fmt.Println("Failed to parse json: ", err.Error())
-		return usersResponse, err
-	}
-
-	return usersResponse, err
-}
-
-func (cmd *UserMigrationCmd) getUserSummary(cli plugin.CliConnection, userResource *UserResource) (UserSummaryResource, error) {
-	var userSummaryResource UserSummaryResource
-
-	data, err := cmd.cfcurl(cli, fmt.Sprintf("/v2/users/%s/summary", userResource.Metadata.GUID))
-
-	if nil != err {
-		fmt.Println("failed to get summary from server: ", err.Error())
-		return userSummaryResource, err
-	}
-
-	err = json.Unmarshal(data, &userSummaryResource)
-
-	if nil != err {
-		fmt.Println("Failed to parse json: ", err.Error())
-		return userSummaryResource, err
-	}
-
-	return userSummaryResource, err
-}
-
-func (cmd *UserMigrationCmd) cfcurl(cli plugin.CliConnection, cliCommandArgs ...string) (data []byte, err error) {
-	cliCommandArgs = append([]string{"curl"}, cliCommandArgs...)
-
-	output, err := cli.CliCommandWithoutTerminalOutput(cliCommandArgs...)
-
-	if nil != err {
-		return nil, err
-	}
-
-	if nil == output || 0 == len(output) {
-		return nil, errors.New("CF API returned no output")
-	}
-
-	response := strings.Join(output, " ")
-
-	if 0 == len(response) || "" == response {
-		return nil, errors.New("Failed to join output")
-	}
-
-	return []byte(response), err
 }

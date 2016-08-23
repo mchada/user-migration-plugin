@@ -1,6 +1,7 @@
 package uaa
 
 import (
+	"bytes"
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
@@ -10,6 +11,17 @@ import (
 	"reflect"
 )
 
+type UserGuid string
+
+func getUserGuid(i interface{}) (UserGuid, error) {
+	s, ok := i.(string)
+	if ok != true {
+		return "", fmt.Errorf("%v is not a valid user guid", i)
+	}
+
+	return UserGuid(s), nil
+}
+
 type Client interface {
 	LoggedIn() bool
 	getAccessToken() (AccessToken, error)
@@ -18,6 +30,7 @@ type Client interface {
 	ListOauthClients() (OauthClients, error)
 	ListIdentityZones() ([]IdentityZone, error)
 	ListUsers() (Users, error)
+	CreateUser(user *User) (UserGuid, error)
 }
 
 type uaaClient struct {
@@ -56,7 +69,7 @@ func (c *uaaClient) newHTTPRequest(method, uriStr string, body io.Reader) (*http
 	return http.NewRequest(method, c.connInfo.ServerURL+uriStr, body)
 }
 
-func (c *uaaClient) executeAndUnmarshall(req *http.Request, target interface{}) error {
+func (c *uaaClient) execute(req *http.Request) (*http.Response, error) {
 	if c.accessToken != nil {
 		req.Header.Set("Authorization", "Bearer "+c.accessToken.Token)
 	}
@@ -67,6 +80,15 @@ func (c *uaaClient) executeAndUnmarshall(req *http.Request, target interface{}) 
 
 	client := &http.Client{Transport: tr}
 	resp, err := client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("Failed to submit request: %v", err)
+	}
+
+	return resp, err
+}
+
+func (c *uaaClient) executeAndUnmarshall(req *http.Request, target interface{}) error {
+	resp, err := c.execute(req)
 	if err != nil {
 		return fmt.Errorf("Failed to submit request: %v", err)
 	}
@@ -169,4 +191,44 @@ func (c *uaaClient) ListUsers() (Users, error) {
 	}
 
 	return users, nil
+}
+
+func (c *uaaClient) CreateUser(user *User) (UserGuid, error) {
+	data, err := json.Marshal(user)
+	if err != nil {
+		return "", err
+	}
+
+	requestBody := bytes.NewBuffer(data)
+
+	req, err := c.newHTTPRequest("POST", "/Users", requestBody)
+	if err != nil {
+		return "", err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("Accept", "application/json")
+	response, err := c.execute(req)
+	if err != nil {
+		return "", err
+	}
+
+	defer response.Body.Close()
+	responseBody, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		return "", fmt.Errorf("Failed to read response body: %v", err)
+	}
+
+	var createUserResponse map[string]interface{}
+	err = json.Unmarshal(responseBody, &createUserResponse)
+	if err != nil {
+		return "", fmt.Errorf("Failed to process POST:/v2/users response: %v", err)
+	}
+
+	//fmt.Printf("raw responseBody: %s\ncreateUserResponse: %v\n", string(responseBody), createUserResponse)
+
+	if response.StatusCode == 409 {
+		return getUserGuid(createUserResponse["user_id"])
+	}
+
+	return getUserGuid(createUserResponse["id"])
 }
