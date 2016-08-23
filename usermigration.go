@@ -109,8 +109,8 @@ func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileNam
 			continue
 		}
 
-		if len(userMigration.ExternalID) == 0 {
-			fmt.Printf("User with GUID %s does not have an ExtneralID in UAA\n", userResource.Metadata.GUID)
+		if len(uaaUser.ExternalID) == 0 {
+			fmt.Printf("User with GUID %s does not have an ExternalID in UAA\nuaa user:%v\n", userResource.Metadata.GUID, uaaUser)
 			continue
 		}
 
