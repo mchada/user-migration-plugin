@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/cloudfoundry/cli/plugin"
+	"github.com/dave-malone/cfclient"
+	"github.com/dave-malone/go-uaac"
 	"github.com/kelseyhightower/envconfig"
-	"github.com/pivotalservices/user-migration-plugin/cf"
-	"github.com/pivotalservices/user-migration-plugin/uaa"
 )
 
 const (

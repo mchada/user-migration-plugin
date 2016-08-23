@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/pivotalservices/user-migration-plugin/cf"
-	"github.com/pivotalservices/user-migration-plugin/uaa"
+	"github.com/dave-malone/cfclient"
+	"github.com/dave-malone/go-uaac"
 )
 
 type userMigration struct {
