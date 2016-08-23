@@ -30,7 +30,6 @@ func (cmd *UserMigrationCmd) Run(cli plugin.CliConnection, args []string) {
 	cmd.UserMigrationCommand(cli, args)
 }
 
-//GetMetadata returns metatada
 func (cmd *UserMigrationCmd) GetMetadata() plugin.PluginMetadata {
 	return plugin.PluginMetadata{
 		Name: pluginName,
@@ -73,7 +72,7 @@ func (cmd *UserMigrationCmd) UserMigrationCommand(cli plugin.CliConnection, args
 
 func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileName string) {
 	uaac := getUaac(cli)
-	cfclient := cf.NewClient()
+	cfclient := cf.NewCliClient(cli)
 
 	userExport := new(userExport)
 	userExport.CfApiUrl = getApiEndpoint(cli)
@@ -84,7 +83,7 @@ func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileNam
 	}
 
 	userMigrations := make([]*userMigration, 0)
-	usersResponse, _ := cfclient.GetUsers(cli)
+	usersResponse, _ := cfclient.GetUsers()
 	for _, userResource := range usersResponse.Resources {
 		if len(userResource.Entity.Username) == 0 {
 			fmt.Printf("User with GUID %s has no username in CC :(\n", userResource.Metadata.GUID)
@@ -95,7 +94,7 @@ func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileNam
 		userMigration.Username = userResource.Entity.Username
 
 		var userSummary cf.UserSummaryResource
-		userSummary, err = cfclient.GetUserSummary(cli, userResource)
+		userSummary, err = cfclient.GetUserSummary(userResource)
 		if err != nil {
 			fmt.Printf("Failed to get user summary for user %s; %v\n", userResource.Entity.Username, err)
 			continue
@@ -150,7 +149,7 @@ func (cmd *UserMigrationCmd) importUsers(cli plugin.CliConnection, exportFileNam
 	}
 
 	uaac := getUaac(cli)
-	cfclient := cf.NewClient()
+	cfclient := cf.NewCliClient(cli)
 
 	fmt.Printf("importing %d users\n", len(export.UserMigrations))
 	for i, userMigration := range export.UserMigrations {
@@ -172,21 +171,21 @@ func (cmd *UserMigrationCmd) importUsers(cli plugin.CliConnection, exportFileNam
 			continue
 		}
 
-		if err := cfclient.CreateUser(cli, userGuid); err != nil {
+		if err := cfclient.CreateUser(userGuid); err != nil {
 			fmt.Printf("%d Failed to create cf user %s: %v\n", i, userMigration.Username, err)
 			continue
 		}
 
-		if err := cfclient.SetOrgRoles(cli, userMigration.Username, userMigration.OrgRoles); err != nil {
+		if err := cfclient.SetOrgRoles(userGuid, userMigration.OrgRoles); err != nil {
 			fmt.Printf("%d Failed to set org roles for cf user %s; %v\n", i, userMigration.Username, err)
 		}
 
-		if err := cfclient.SetSpaceRoles(cli, userMigration.Username, userMigration.SpaceRoles); err != nil {
+		if err := cfclient.SetSpaceRoles(userGuid, userMigration.SpaceRoles); err != nil {
 			fmt.Printf("%d Failed to set space roles for cf user %s; %v\n", i, userMigration.Username, err)
 		}
-
 		fmt.Printf("%d %s imported\n", i, userMigration.Username)
 	}
+
 }
 
 func getApiEndpoint(cli plugin.CliConnection) string {
