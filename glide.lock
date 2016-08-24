@@ -1,15 +1,15 @@
 hash: 20e9b7f914487d2e659bd55e30e81543b6ec3012ee840952017e11cfc36121ac
-updated: 2016-08-23T16:22:57.11959813-05:00
+updated: 2016-08-24T09:27:43.346547842-05:00
 imports:
 - name: github.com/cloudfoundry/cli
-  version: 5d1ddc2e64c17482fada9ab97b9a50acec4ad938
+  version: 5201bc00a981112a646a92098cb49a313cc2aa43
   subpackages:
   - plugin
   - plugin/models
 - name: github.com/dave-malone/cfclient
-  version: 968db166a5ad2c5371dc97aded8de4e61b39d543
+  version: 34b0430af9dbe9c8d0e370f89b05844aae5f0d18
 - name: github.com/dave-malone/go-uaac
-  version: 1164c3190ae7d7eb9ad28ecd6e2be04aea00c4ac
+  version: 85d3c65ba5beddd961a492527d9409c9042fb820
 - name: github.com/kelseyhightower/envconfig
   version: 1e291572dcb9ba673cdcdb15e0f422702415ebaf
 devImports: []
