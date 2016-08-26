@@ -2,7 +2,7 @@ user-migration plugin
 ======
 
 
-Retrieves the list of Users from the Cloud Controller API and the UAA API and outputs a yml file which can be used with the [UAA Ldap Import](https://github.com/pivotalservices/uaaldapimport) tool.
+Retrieves the list of Users from the Cloud Controller API and the UAA API and outputs a json file that can then be edited by hand, if needed, to then import into another instance of CF
 
 
 # Install the plugin:
