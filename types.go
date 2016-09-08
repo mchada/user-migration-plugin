@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/dave-malone/cfclient"
-	"github.com/dave-malone/go-uaac"
+	"github.com/pivotalservices/go-uaac/users"
 )
 
 type userMigration struct {
 	Username   string
 	ExternalID string
-	Emails     []uaa.UserEmail
+	Emails     []users.UserEmail
 	OrgRoles   []*cf.OrgRole
 	SpaceRoles []*cf.SpaceRole
 }

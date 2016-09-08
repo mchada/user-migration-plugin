@@ -4,3 +4,7 @@ import:
   subpackages:
   - plugin
 - package: github.com/kelseyhightower/envconfig
+- package: github.com/dave-malone/cfclient
+- package: github.com/pivotalservices/go-uaac
+  subpackages:
+  - users

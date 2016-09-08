@@ -10,8 +10,9 @@ import (
 
 	"github.com/cloudfoundry/cli/plugin"
 	"github.com/dave-malone/cfclient"
-	"github.com/dave-malone/go-uaac"
 	"github.com/kelseyhightower/envconfig"
+	"github.com/pivotalservices/go-uaac"
+	"github.com/pivotalservices/go-uaac/users"
 )
 
 const (
@@ -77,8 +78,10 @@ func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileNam
 	userExport := new(userExport)
 	userExport.CfApiUrl = getApiEndpoint(cli)
 
-	uaaUsers, err := uaac.ListUsers()
-	if err != nil {
+	var uaaUsers users.Users
+	command := users.NewGetUsersCommand(uaac, &uaaUsers)
+
+	if err := command.Execute(); err != nil {
 		log.Fatalf("Failed to list users from UAA: %v", err)
 	}
 
@@ -94,7 +97,7 @@ func (cmd *UserMigrationCmd) exportUsers(cli plugin.CliConnection, exportFileNam
 		userMigration.Username = userResource.Entity.Username
 
 		var userSummary cf.UserSummaryResource
-		userSummary, err = cfclient.GetUserSummary(userResource)
+		userSummary, err := cfclient.GetUserSummary(userResource)
 		if err != nil {
 			fmt.Printf("Failed to get user summary for user %s; %v\n", userResource.Entity.Username, err)
 			continue
@@ -153,18 +156,20 @@ func (cmd *UserMigrationCmd) importUsers(cli plugin.CliConnection, exportFileNam
 
 	fmt.Printf("importing %d users\n", len(export.UserMigrations))
 	for i, userMigration := range export.UserMigrations {
-		uaaUser := &uaa.User{
+		uaaUser := &users.User{
 			Username:   userMigration.Username,
 			ExternalID: userMigration.ExternalID,
 			Emails:     userMigration.Emails,
 			Origin:     "ldap",
 		}
 
-		userGuid, err := uaac.CreateUser(uaaUser)
-		if err != nil {
+		command := users.NewCreateUserCommand(uaac, uaaUser)
+		if err := command.Execute(); err != nil {
 			fmt.Printf("%d Failed to create uaa user: %v\n", i, err)
 			continue
 		}
+
+		userGuid := uaaUser.GUID
 
 		if len(userGuid) == 0 {
 			fmt.Printf("%d uaa user guid not found for username %s\n", i, userMigration.Username)
@@ -201,21 +206,22 @@ func getUaac(cli plugin.CliConnection) uaa.Client {
 	uaaEndpoint := strings.Replace(apiEndpoint, "api", "uaa", 1)
 	fmt.Println("using derived uaa endpoint: ", uaaEndpoint)
 
-	uaaConnInfo := uaa.ConnectionInfo{ServerURL: uaaEndpoint}
-
-	if err := envconfig.Process("uaa", &uaaConnInfo); err != nil {
+	config := &uaa.ClientConfig{
+		ApiAddress: uaaEndpoint,
+	}
+	if err := envconfig.Process("uaa", config); err != nil {
 		log.Fatalf("Failed to read process required environment variables: %v", err)
 	}
 
-	uaac, err := uaaConnInfo.Connect()
+	uaac, err := uaa.NewClient(config)
 	if err != nil {
-		log.Fatalf("Failed to connect to UAA: %v", err)
+		log.Fatalf("Failed to initialize uaa client; %v", err)
 	}
 
 	return uaac
 }
 
-func findUaaUser(userResource *cf.UserResource, uaaUsers *uaa.Users) *uaa.User {
+func findUaaUser(userResource *cf.UserResource, uaaUsers *users.Users) *users.User {
 	for _, uaaUser := range uaaUsers.Users {
 		if uaaUser.Username == userResource.Entity.Username {
 			return &uaaUser
